@@ -9,8 +9,8 @@ $sexo_recebido = $_POST['sexoCons'];
 $conex1 = pg_connect("host = 192.168.122.58
  port = 5432
  dbname = psiq
- user = bccibm21g10
- password = 2340")
+ user = 
+ password = ")
 or die ("Falha na conexão!".pg_last_error());
 
 if ($nome_recebido != ""){

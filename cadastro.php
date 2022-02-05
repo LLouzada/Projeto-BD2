@@ -14,8 +14,8 @@ $datanasc_recebido = $_POST['datanasc'];
 $conex1 = pg_connect("host = 192.168.122.58
  port = 5432
  dbname = psiq
- user = bccibm21g10
- password = 2340")
+ user = 
+ password = ")
 or die ("Falha na conexão!".pg_last_error());
 
 $queryCep = "INSERT INTO Cep(cep, cidade, estado)  
